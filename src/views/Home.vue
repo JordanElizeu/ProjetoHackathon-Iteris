@@ -62,6 +62,7 @@
     >
       Animes
     </v-btn>
+    <br/><br/>
   </div>
 </template>
 
@@ -88,15 +89,15 @@ export default {
   margin: 10px;
 }
 .btn-games{
-  margin-left: 12%;
-  transform: scale(1.4);
+  margin-left: 9%;
+  transform: scale(1.2);
 }
 .btn-animes{
-  margin-left: 12%;
-  transform: scale(1.4);
+  margin-left: 9%;
+  transform: scale(1.2);
 }
 .btn-support{
   margin-left: 5%;
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 </style>
