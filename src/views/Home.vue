@@ -36,6 +36,30 @@
       autolesão, destaca-se a guia "Iniciativas de Apoio", em que são indicados 
       profissionais e sites para conscientização.
     </p>
+    <v-btn
+      depressed
+      color="yellow"
+      class="btn-support"
+      to="/siteslista"
+    >
+      <strong>Apoio</strong>
+    </v-btn>
+    <v-btn
+      depressed
+      color="primary"
+      class="btn-games"
+      to="/jogos"
+    >
+      Games
+    </v-btn>
+    <v-btn
+      depressed
+      color="error"
+      class="btn-animes"
+      to="/animes"
+    >
+      Animes
+    </v-btn>
   </div>
 </template>
 
@@ -60,5 +84,17 @@ export default {
 <style>
 .texto-informativo {
   margin: 10px;
+}
+.btn-games{
+  margin-left: 12%;
+  transform: scale(1.4);
+}
+.btn-animes{
+  margin-left: 12%;
+  transform: scale(1.4);
+}
+.btn-support{
+  margin-left: 5%;
+  transform: scale(1.4);
 }
 </style>
