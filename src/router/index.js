@@ -30,7 +30,7 @@ const routes = [
     component: LazerEmCasa
   },
   {
-    path: '/SitesLista',
+    path: '/siteslista',
     name: 'SitesLista',
     component: SitesLista
   },
