@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <HelloWorld/>
     <v-main>
       <router-view/>
     </v-main>
@@ -8,12 +7,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components:{
-    HelloWorld    
-  }
 };
 </script>
