@@ -24,7 +24,7 @@ const routes = [
     component: Animes
   },
   {
-    path: '/SitesLista',
+    path: '/siteslista',
     name: 'SitesLista',
     component: SitesLista
   },

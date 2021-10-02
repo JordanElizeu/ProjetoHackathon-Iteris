@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <v-img src="../assets/setembroAmarelo_img.jpg" />
-    <h1 class="texto-informativo">{{setembroAmarelo[0].nome}}</h1>
+    <h1 class="texto-informativo">Setembro Amarelo</h1>
     <p class="texto-informativo">
       Desde 2014, a Associação Brasileira de Psiquiatria – ABP, em parceria com
       o Conselho Federal de Medicina – CFM, organiza nacionalmente o Setembro
@@ -20,15 +20,8 @@
       Participação da Campanha Setembro Amarelo®, materiais online para
       download, a
       <a href="http://www.flip3d.com.br/web/pub/cfm/index9/?numero=14"
-        >Cartilha Suicídio Informando para Prevenir</a
-      >
+        >Cartilha Suicídio Informando para Prevenir</a>
       e todo o material para a imprensa.
-    </p>
-    <p class="texto-informativo">{{setembroAmarelo[0].descricao}}</p>
-    <p class="texto-informativo"></p>
-    <h4 class="texto-informativo">{{setembroAmarelo[1].nome}}</h4>
-    <p class="texto-informativo">
-      {{ setembroAmarelo[1].descricao }} <a>{{setembroAmarelo[1].link}}</a>
     </p>
   </div>
 </template>
