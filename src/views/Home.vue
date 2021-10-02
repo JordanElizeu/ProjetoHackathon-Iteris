@@ -25,47 +25,19 @@
       e todo o material para a imprensa.
     </p>
     <v-img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9fff4388604987.5ddbc7846738d.gif"/>
-    <v-row justify="center">
-    <v-dialog
-      v-model="dialog"
-      persistent
-      max-width="290"
-    >
-      <template v-slot:activator="{ on, attrs }">
-        <v-btn
-          color="primary"
-          dark
-          v-bind="attrs"
-          v-on="on"
-        >
-          Open Dialog
-        </v-btn>
-      </template>
-      <v-card>
-        <v-card-title class="text-h5">
-          Use Google's location service?
-        </v-card-title>
-        <v-card-text>Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.</v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn
-            color="green darken-1"
-            text
-            @click="dialog = false"
-          >
-            Disagree
-          </v-btn>
-          <v-btn
-            color="green darken-1"
-            text
-            @click="dialog = false"
-          >
-            Agree
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-  </v-row>
+    <p class="texto-informativo">
+      Contudo, tratando-se de prevenção, necessário se atentar também a medidas 
+      paliativas, especialmente no período de pandemia. Ou seja, em decorrência do 
+      isolamento social, é salutar que se pratique atividades que ocupem o cérebro,
+      dada a ausência de interação social presencial. Portanto o site também busca lhes 
+      apresenta passatempos, como jogos e animes.
+    </p>
+    <p class="texto-informativo">
+      Portanto, recomenda-se fortemente o estímulo da tecnologia como mecanismo de
+      interação social, desde que de forma salutar. Acaso venha tendo pensamentos de 
+      autolesão, destaca-se a guia "Iniciativas de Apoio", em que são indicados 
+      profissionais e sites para conscientização.
+    </p>
   </div>
 </template>
 
