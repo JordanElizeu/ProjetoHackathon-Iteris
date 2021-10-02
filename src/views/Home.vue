@@ -8,6 +8,7 @@
       Amarelo®. O dia 10 deste mês é, oficialmente, o Dia Mundial de Prevenção
       ao Suicídio, mas a campanha acontece durante todo o ano.
     </p>
+    <v-img src="https://media1.giphy.com/media/McakAWU5WMglyoyk7h/source.gif"/>
     <p class="texto-informativo">
       São registrados mais de 13 mil suicídios todos os anos no Brasil e mais de
       01 milhão no mundo. Trata-se de uma triste realidade, que registra cada
@@ -23,6 +24,7 @@
         >Cartilha Suicídio Informando para Prevenir</a>
       e todo o material para a imprensa.
     </p>
+    <v-img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9fff4388604987.5ddbc7846738d.gif"/>
     <p class="texto-informativo">
       Contudo, tratando-se de prevenção, necessário se atentar também a medidas 
       paliativas, especialmente no período de pandemia. Ou seja, em decorrência do 
