@@ -8,7 +8,7 @@
     <p>Clique em um dos botões abaixo e veja alguns games e animes que separamos para vocês:</p>
     <v-btn
       depressed
-      color="primary"
+      color="#0092E3"
       class="btn-games"
       to="/jogos"
     >
@@ -16,7 +16,7 @@
     </v-btn>
     <v-btn
       depressed
-      color="error"
+      color="#E9BE0E"
       class="btn-animes"
       to="/animes"
     >
