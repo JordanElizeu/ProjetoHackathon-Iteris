@@ -23,6 +23,19 @@
         >Cartilha Suicídio Informando para Prevenir</a>
       e todo o material para a imprensa.
     </p>
+    <p class="texto-informativo">
+      Contudo, tratando-se de prevenção, necessário se atentar também a medidas 
+      paliativas, especialmente no período de pandemia. Ou seja, em decorrência do 
+      isolamento social, é salutar que se pratique atividades que ocupem o cérebro,
+      dada a ausência de interação social presencial. Portanto o site também busca lhes 
+      apresenta passatempos, como jogos e animes.
+    </p>
+    <p class="texto-informativo">
+      Portanto, recomenda-se fortemente o estímulo da tecnologia como mecanismo de
+      interação social, desde que de forma salutar. Acaso venha tendo pensamentos de 
+      autolesão, destaca-se a guia "Iniciativas de Apoio", em que são indicados 
+      profissionais e sites para conscientização.
+    </p>
   </div>
 </template>
 
