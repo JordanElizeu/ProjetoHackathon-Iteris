@@ -21,6 +21,7 @@
         <v-list-item
           v-for="item in items"
           :key="item.title"
+          :to="item.to"
           link
         >
           <v-list-item-icon>
@@ -49,9 +50,9 @@ export default {
   data() {
     return {
         items: [
-          { title: 'Dashboard', icon: 'mdi-view-dashboard' },
-          { title: 'Photos', icon: 'mdi-image' },
-          { title: 'About', icon: 'mdi-help-box' },
+          { title: 'Home', icon: 'mdi-home', to:"/" },
+          { title: 'Lazer em casa', icon: 'mdi-gamepad-variant-outline', to:"/lazer" },
+          { title: 'Iniciativas de Apoio', icon: 'mdi-help-box', to:"/siteslista" },
         ],
         right: null,
         drawer: null

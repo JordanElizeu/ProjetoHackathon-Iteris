@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Jogos from '../views/Jogos.vue'
 import Animes from '../views/Animes.vue'
 import SitesLista from '../views/SuporteSites.vue'
+import LazerEmCasa from "../views/LazerEmCasa.vue"
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
     path: '/animes',
     name: 'Animes',
     component: Animes
+  },
+  {
+    path: '/lazer',
+    name: 'LazerEmCasa',
+    component: LazerEmCasa
   },
   {
     path: '/SitesLista',

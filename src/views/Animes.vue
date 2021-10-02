@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container id="animes">
     <v-card
       class="mx-auto mb-4"
       max-width="344"
@@ -32,8 +32,7 @@ export default {
       show: [],
     };
   },
-
-  created() {
+  mounted(){
     fetch("https://it3zxc-default-rtdb.firebaseio.com/lazer/animes.json")
       .then((res) => res.json())
       .then((json) => {
