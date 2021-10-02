@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Jogos from '../views/Jogos.vue'
 import Animes from '../views/Animes.vue'
+import SitesLista from '../views/SuporteSites.vue'
 
 Vue.use(VueRouter)
 
@@ -21,7 +22,12 @@ const routes = [
     path: '/animes',
     name: 'Animes',
     component: Animes
-  }
+  },
+  {
+    path: '/SitesLista',
+    name: 'SitesLista',
+    component: SitesLista
+  },
 ]
 
 const router = new VueRouter({
