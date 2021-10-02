@@ -4,12 +4,9 @@
             <thead>
                 <tr>
                     <th colspan="1" class="text-left">
-                        Nome
-                    </th>
-                    <th colspan="2" class="text-left">
                         Link
                     </th>
-                    <th colspan="3" class="text-left">
+                    <th colspan="2" class="text-left">
                         Descrição
                     </th>
                 </tr>
@@ -19,13 +16,17 @@
                     v-for="link in links"
                     :key="link.id"
                 >
-                    <td >{{ link.nome}}</td>
                     <td >
-                        <v-avatar size="40">
-                            <a href="link.link">
-                                <img :src="link.imagem" :alt="link.categoria"/>
-                            </a>
-                        </v-avatar>
+                        {{ link.nome }}
+                        <a :href="link.link">
+                            <v-img
+                                contain
+                                max-height="102"
+                                max-width="100"
+                                :src="link.imagem"
+                                :alt="link.categoria"
+                            ></v-img>
+                         </a>
                     </td>
                     <td></td>
                     <td>{{ link.descricao }}</td>
@@ -48,5 +49,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
