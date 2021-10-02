@@ -4,30 +4,30 @@
             <thead>
                 <tr>
                     <th colspan="1" class="text-left">
-                        Posição
+                        Nome
                     </th>
                     <th colspan="2" class="text-left">
-                        Clube
+                        Link
                     </th>
                     <th colspan="3" class="text-left">
-                        Pontos
+                        Descrição
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr
-                    v-for="(time, index) in times"
-                    :key="time.id"
+                    v-for="link in links"
+                    :key="link.id"
                 >
-                    <td >{{ index + 1}}</td>
+                    <td >{{ link.nome}}</td>
                     <td >
                         <v-avatar size="20">
-                            <img :src="time.escudo" :alt="time.nome"/>
+                            <img :src="link.imagem" :alt="link.categoria" href="link.link"/>
                         </v-avatar>
                         <span>{{ "   " + time.nome }}</span>
                     </td>
                     <td></td>
-                    <td>{{ time.pontos }}</td>
+                    <td>{{ link.descricao }}</td>
                 </tr>
             </tbody>
         </template>
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-    name: 'ClubesTabela',
+    name: 'SuporteTabela',
     props: {
         times: {
             type: Array,
