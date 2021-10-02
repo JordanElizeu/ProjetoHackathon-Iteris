@@ -15,6 +15,7 @@
                 <tr
                     v-for="link in links"
                     :key="link.id"
+                    class="tabelas"
                 >
                     <td >
                         {{ link.nome }}
@@ -29,7 +30,7 @@
                          </a>
                     </td>
                     <td></td>
-                    <td>{{ link.descricao }}</td>
+                    <td class="margin">{{ link.descricao }}</td>
                 </tr>
             </tbody>
         </template>
@@ -49,4 +50,7 @@ export default {
 </script>
 
 <style scoped>
+    .tabelas {
+        margin-top: 20px;
+    }
 </style>
