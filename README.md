@@ -1,6 +1,7 @@
 # Setembro Amarelo
 ![image](./img.png)
-## Introdução
+
+## Resumo
 A página Setembro Amarelo foi criada com o intuito de ajudar a resolver o problema do suicídio, que obviamente é um problema que não se limita apenas ao mês de setembro. A nossa aplicação é um modo de conscientizar as pessoas sobre o assunto, apresentando métodos de prevenção e combate ao suicídio, especialmente no período de pandemia. O nosso principal diferencial é a busca por algo que esteja mais próximo do usuário, como games e animes para ajudar a passar tempo de qualidade, e também incentiva a busca de ajuda profissional nos casos mais sérios.
 
 ## Wireframe da aplicação
