@@ -9,7 +9,7 @@
     <div class="mt-15 mb-15">
       <v-btn
       depressed
-      color="primary"
+      color="#0092E3"
       class="btn-games"
       to="/jogos"
     >
@@ -17,7 +17,7 @@
     </v-btn>
     <v-btn
       depressed
-      color="error"
+      color="#E9BE0E"
       class="btn-animes"
       to="/animes"
     >
