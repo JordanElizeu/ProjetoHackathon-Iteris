@@ -6,7 +6,7 @@
         <p>
             Precisa de ajuda? Clique na imagem
         </p>
-        <SuporteTabela :sites="SitesOrdenados"/>
+        <SuporteTabela :links="SitesOrdenados"/>
     </v-container>
 </template>
 
@@ -32,9 +32,7 @@ export default {
     },
     computed: {
         SitesOrdenados (){
-            const listaComputada = this.SitesLista.slice(0).sort(
-                (a, b) => a.pontos > b.pontos ? -1 : 1
-            );
+            const listaComputada = this.SitesLista;
             return listaComputada;
         }
     }

@@ -21,10 +21,11 @@
                 >
                     <td >{{ link.nome}}</td>
                     <td >
-                        <v-avatar size="20">
-                            <img :src="link.imagem" :alt="link.categoria" href="link.link"/>
+                        <v-avatar size="40">
+                            <a href="link.link">
+                                <img :src="link.imagem" :alt="link.categoria"/>
+                            </a>
                         </v-avatar>
-                        <span>{{ "   " + time.nome }}</span>
                     </td>
                     <td></td>
                     <td>{{ link.descricao }}</td>
@@ -38,7 +39,7 @@
 export default {
     name: 'SuporteTabela',
     props: {
-        times: {
+        links: {
             type: Array,
             required: true
         }
