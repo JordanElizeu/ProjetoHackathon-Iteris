@@ -8,6 +8,7 @@
       Amarelo®. O dia 10 deste mês é, oficialmente, o Dia Mundial de Prevenção
       ao Suicídio, mas a campanha acontece durante todo o ano.
     </p>
+    <v-img src="https://media1.giphy.com/media/McakAWU5WMglyoyk7h/source.gif"/>
     <p class="texto-informativo">
       São registrados mais de 13 mil suicídios todos os anos no Brasil e mais de
       01 milhão no mundo. Trata-se de uma triste realidade, que registra cada
@@ -23,6 +24,48 @@
         >Cartilha Suicídio Informando para Prevenir</a>
       e todo o material para a imprensa.
     </p>
+    <v-img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/9fff4388604987.5ddbc7846738d.gif"/>
+    <v-row justify="center">
+    <v-dialog
+      v-model="dialog"
+      persistent
+      max-width="290"
+    >
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          color="primary"
+          dark
+          v-bind="attrs"
+          v-on="on"
+        >
+          Open Dialog
+        </v-btn>
+      </template>
+      <v-card>
+        <v-card-title class="text-h5">
+          Use Google's location service?
+        </v-card-title>
+        <v-card-text>Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.</v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn
+            color="green darken-1"
+            text
+            @click="dialog = false"
+          >
+            Disagree
+          </v-btn>
+          <v-btn
+            color="green darken-1"
+            text
+            @click="dialog = false"
+          >
+            Agree
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+  </v-row>
   </div>
 </template>
 
